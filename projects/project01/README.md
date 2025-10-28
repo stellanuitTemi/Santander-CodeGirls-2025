@@ -20,7 +20,7 @@ Ao finalizar este desafio fui capaz de criar um diagrama onde:
 
 ## Arquitetura Criada
 
-![Diagrama de Gerenciamento de Instâncias EC2 na AWS](https://github.com/stellanuitTemi/Santander-CodeGirls-2025/blob/main/projects/images/instanciaEC2.jpg "Diagrama de Gerenciamento de Instâncias EC2 na AWS")
+![Diagrama de Gerenciamento de Instâncias EC2 na AWS](https://drive.google.com/file/d/10fNlwITMIBRTTjhfVxbZzzbTHMUVvTF6/view?usp=drive_link "Diagrama de Gerenciamento de Instâncias EC2 na AWS")
 
 ## Conceitos Importantes
 
