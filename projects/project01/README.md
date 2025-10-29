@@ -26,8 +26,53 @@ Ao finalizar este desafio fui capaz de criar um diagrama onde:
 
 ### 🔸 Amazon EC2
 
+**AWS EC2 ou Elastic Cloud Compute** é um serviço web que fornece capacidade computacional na nuvem de forma secura e escalável. Pode ser utilizada para criar várias máquinas virtuais conforme necessário.
+
+As máquinas virtuais criadas no EC2 podem ter sistemas operacionais Windows ou Linux.
+
+Uma EC2 é composta por:
+
+- CPU
+- Memória
+- Disco
+- Rede
+- Sistema Operacional
+
 ### 🔸 Amazon S3
+
+Amazon Simple Storage Service ou Amazon S3 é um serviço provido pela AWS que permite armazenar, organizar e recuperar grandes volumes de dados na web.
+
+O Amazon S3 fornece armazenamento de objetos desenvolvido para armazenar e recuperar qualquer quantidade de informação ou dado de qualquer lugar da internet.
+
+**Object & Bucket do AWS S3**
+
+- Um object ou objeto consiste de dados (arquivos), key e metadados.
+- Um Bucket é responsável por armazenar os objetos.
+- Quando um dado (objecto) é adicionado ao bucket, o Amazon S3 cria uma ID única e a associa ao objeto.
+
+**Tipos de Classes no Amazon S3**
+
+- **Standard:** Para acesso frequente de dados, adequado para casos em que é necessária baixa latência.
+- **Standard IA:** Para acesso infrequente de dados, pode ser usa quando os dados são de longa duração e acessados não frequentemente.
+- **Amazon Glacier:** Pode ser usado quando os dados precisão ser arquivados por longuíssimos períodos e alta performance não é necessária.
+- **One Zone IA Storage Class:** Pode ser usado quando o dado armazenado é acessado infrequentemente e em apenas uma única região.
+- **Amazon S3 Standard Reduced Redundancy Storage:** Adequado para usa onde o dado armazenado é não crítico e reproduzido rapidamente.
 
 ### 🔸 Amazon EBS
 
+É uma storage altamente confiável que pode ser anexada em qualquer instância EC2. Toda instância possui um volume de armazenamento.
+
+Com o EBS conseguimos criar uma nova participação em nossa instância, igual a um HD externo.
+
+Exemplo de uso:
+
+- Armazenamento para banco de dados, como MySQL, PostgreSQL, Oracle.
+- Arnazenar dados para aplicativos web e logs de sistema.
+
 ### 🔸 Amazon AMI
+
+No Amazon EC2, uma **AMI (Amazon Machine Image)** é uma imagem de máquina virtual pré-configurada com as informações necessárias para iniciar uma instância, como o sistema operacional, servidors de aplicações e as aplicações.
+
+As AMIs podem ser criadas a partir de instâncias em execução ou paradas.
+
+As AMIs podem ser públicas ou privadas. A AWS fornece uma variedade de AMIs públicas que podem ser usadas, ou você pode criar e usar suas próprias AMIs privada para segurança e personalização.
